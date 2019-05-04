@@ -1,0 +1,868 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background: #fc00ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+    
+}
+html {
+	scroll-behavior: smooth;
+}
+#banner {
+			-moz-align-items: left;
+		-webkit-align-items: left;
+		-ms-align-items: left;
+		align-items: left;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-justify-content: left;
+		-webkit-justify-content: left;
+		-ms-justify-content: left;
+		justify-content: left;
+		padding: 2em 1em 3em 2em;
+		min-height: 100vh;
+		background-image: url("../../images/banner.jpg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		border-top: 0;
+    position: relative;
+    
+		text-align: left;
+		font-size: 60px;
+		color: white;
+    font-family: 'Domine', serif;
+        letter-spacing: -2px;
+		overflow: hidden;
+	  
+}
+.fas fa-chevron-down {
+    color: black;
+    
+}
+#main {
+    padding: 4em 0 2em 0;
+    align-self: center;
+    background-color: white;
+    color: black;
+	/*	min-height: 10px; */
+  box-sizing: border-box;
+	font-family: 'Karla', sans-serif;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+  
+  outline: 30px solid white;
+  
+  margin: 0 auto;
+
+		/*widows: 100px;*/
+		align-content: center;
+	
+	
+	
+	}
+
+		@media screen and (max-width: 736px) {
+
+			#main {
+				padding: 3em 0 1em 0;
+				
+			}
+
+		
+
+			@media screen and (max-width: 480px) {
+
+				#main .inner {
+					width: 95%;
+				}
+
+			}
+
+	
+	
+	}
+  #conf {
+    padding: 4em 0 2em 0;
+    align-self: center;
+    background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+    
+    align-self: center;
+    background-color: white;
+    color: black;
+	/*	min-height: 10px; */
+
+	font-family: 'Karla', sans-serif;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+  
+  outline: 10px solid #1d1e21;
+  
+  margin: 0 auto;
+
+		/*widows: 100px;*/
+		align-content: center;
+	
+	
+	
+	}
+
+		@media screen and (max-width: 736px) {
+
+			#conf{
+        padding: 3em 0 1em 0;
+        font-size: 15px;
+				
+      }
+      #con {
+        font-size: 5vw;
+      }
+      
+
+		
+
+			@media screen and (max-width: 480px) {
+
+				#main .inner {
+					width: 95%;
+				}
+
+			}
+
+	
+	
+	}
+    color: black;
+	/*	min-height: 10px; */
+  box-sizing: border-box;
+	font-family: 'Karla', sans-serif;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+  
+  outline: 10px solid white;
+  
+  margin: 0 auto;
+
+		/*widows: 100px;*/
+		align-content: center;
+	
+	
+	
+	}
+
+		@media screen and (max-width: 736px) {
+
+			#main {
+				padding: 3em 0 1em 0;
+				
+			}
+
+		
+
+			@media screen and (max-width: 480px) {
+
+				#main .inner {
+					width: 95%;
+				}
+
+			}
+
+	
+	
+  }
+  
+.social-footer {
+  padding: 1rem;
+  background: #8a8a8a;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social-footer .social-footer-icons li:last-of-type {
+  
+}
+
+.social-footer .social-footer-icons .fa {
+  font-size: 1.3rem;
+  color: #fefefe;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}
+
+
+  #other {
+    padding: 4em 0 2em 0;
+    align-self: center;
+    background-color: #1d1e21;
+  
+    color: white;
+	/*	min-height: 10px; */
+  box-sizing: border-box;
+	font-family: 'Karla', sans-serif;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+  
+  outline: 10px solid #1d1e21;
+  
+  margin: 0 auto;
+
+		/*widows: 100px;*/
+		align-content: center;
+	
+	
+	
+	}
+
+		@media screen and (max-width: 736px) {
+
+			#main {
+				padding: 3em 0 1em 0;
+				
+			}
+
+		
+
+			@media screen and (max-width: 480px) {
+
+				#other .inner {
+					width: 95%;
+				}
+       
+			}
+
+	
+	
+	}
+#games {
+	font-family: 'Source Serif Pro', serif;
+	color: black;
+	font-size: 45px;
+	text-align: center;
+	
+	
+	
+}
+#con {
+	font-family: 'Rock Salt', cursive;
+	color: white;
+	font-size: 90px;
+	text-align: center;
+	
+	
+	
+}
+    #arg {
+      font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-size: 15px;
+	text-align: center;
+	
+	
+	
+}
+#desc {
+  font-family: 'Montserrat', sans-serif;
+color: white;
+font-size: 15px;
+text-align: center;
+
+
+
+}
+#more {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 1;
+	color: white;
+	font-size: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+
+#footer {
+  font-family: 'Karla', sans-serif;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+.main {
+	
+}
+.inner {
+         -webkit-transform-origin: top center;
+  -ms-transform-origin: top center;
+  transform-origin: top center;
+  -webkit-animation-name: swing;
+  animation-name: swing;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes swing {
+  20% {
+  -webkit-transform: rotate3d(0, 0, 1, 15deg);
+  transform: rotate3d(0, 0, 1, 15deg);
+  }
+  40% {
+  -webkit-transform: rotate3d(0, 0, 1, -10deg);
+  transform: rotate3d(0, 0, 1, -10deg);
+  }
+  60% {
+  -webkit-transform: rotate3d(0, 0, 1, 5deg);
+  transform: rotate3d(0, 0, 1, 5deg);
+  }
+  80% {
+  -webkit-transform: rotate3d(0, 0, 1, -5deg);
+  transform: rotate3d(0, 0, 1, -5deg);
+  }
+  100% {
+  -webkit-transform: rotate3d(0, 0, 1, 0deg);
+  transform: rotate3d(0, 0, 1, 0deg);
+  }
+  }
+  @keyframes swing {
+  20% {
+  -webkit-transform: rotate3d(0, 0, 1, 15deg);
+  transform: rotate3d(0, 0, 1, 15deg);
+  }
+  40% {
+  -webkit-transform: rotate3d(0, 0, 1, -10deg);
+  transform: rotate3d(0, 0, 1, -10deg);
+  }
+  60% {
+  -webkit-transform: rotate3d(0, 0, 1, 5deg);
+  transform: rotate3d(0, 0, 1, 5deg);
+  }
+  80% {
+  -webkit-transform: rotate3d(0, 0, 1, -5deg);
+  transform: rotate3d(0, 0, 1, -5deg);
+  }
+  100% {
+  -webkit-transform: rotate3d(0, 0, 1, 0deg);
+  transform: rotate3d(0, 0, 1, 0deg);
+  }
+  }
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: black;
+   
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 20px;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  
+  color: #f2f2f2;
+  text-align: center;
+  padding: 7px 8px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #a80b0b;
+  color: white;
+}
+
+/*login section lel*/
+/* Add a black background color to the top navigation */
+.login {
+  
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.login a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 7px 8px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Change the color of links on hover */
+.login a:hover {
+  
+}
+
+/* Add a color to the active/current link */
+.login a.active {
+  background-color: #a80b0b;
+  color: white;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  text-align: center;
+  outline: none;
+  border: none;
+  outline-style: solid;
+  outline-color: white;
+  outline: 5px;
+   font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-align: left;
+}
+
+input[type=submit] {
+
+  padding:10px 10px; 
+  background:#ccc; 
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+  font-size: 10px;
+   font-family: 'Montserrat', sans-serif;
+
+}
+.button {
+  background-color: white; /* Green */
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  font-weight: 400;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: transparent; 
+  font-weight: 200;
+  color: white; 
+  border: 5px solid white;
+}
+
+.button1:hover {
+  background-color: rgb(76, 155, 175);
+  color: white;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+#fname {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+#learn {
+  font-size: 30px;
+}
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+
+html,
+body {
+  
+  
+  
+  
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+div[class*=box] {
+	
+	width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.btn {
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	width: 250px;
+	cursor: pointer;
+}
+
+/* 
+========================
+      BUTTON ONE
+========================
+*/
+.btn-one {
+	color: #FFF;
+	transition: all 0.3s;
+	position: relative;
+}
+.btn-one span {
+	transition: all 0.3s;
+}
+.btn-one::before {
+	content: '';
+	
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: rgba(255,255,255,0.5);
+	border-bottom-color: rgba(255,255,255,0.5);
+	transform: scale(0.1, 1);
+}
+.btn-one:hover span {
+	letter-spacing: 2px;
+}
+.btn-one:hover::before {
+	opacity: 1;	
+	transform: scale(1, 1);	
+}
+.btn-one::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.3s;
+	background-color: rgba(255,255,255,0.1);
+}
+.btn-one:hover::after {
+	opacity: 0;	
+	transform: scale(0.1, 1);
+}
+
+
+
+
+/*** Works on common browsers ***/
+::selection {
+  background-color: #272a2d;
+  color: white;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+  background-color: #272a2d;
+  color: #fff;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+  background-color: #272a2d;
+  color: #fff;
+}
+
+::-ms-selection {
+  background-color: #272a2d;
+  color: #fff;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+  background-color: #272a2d;
+  color: #fff;
+}
+
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+
+
+/*
+  https://developer.mozilla.org/en/docs/Web/CSS/box-shadow
+  box-shadow: [inset?] [top] [left] [blur] [size] [color];
+
+  Tips:
+    - We're setting all the blurs to 0 since we want a solid fill.
+    - Add the inset keyword so the box-shadow is on the inside of the element
+    - Animating the inset shadow on hover looks like the element is filling in from whatever side you specify ([top] and [left] accept negative values to become [bottom] and [right])
+    - Multiple shadows can be stacked
+    - If you're animating multiple shadows, be sure to keep the same number of shadows so the animation is smooth. Otherwise, you'll get something choppy.
+*/
+
+// Animate the size, inside
+.fill:hover,
+.fill:focus {
+  box-shadow: inset 0 0 0 2em var(--hover);
+}
+
+// Animate the size, outside
+.pulse:hover, 
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(#fff,0);
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--hover); }
+}
+
+// Stack multiple shadows, one from the left, the other from the right
+.close:hover,
+.close:focus {
+  box-shadow: 
+    inset -3.5em 0 0 0 var(--hover),
+    inset 3.5em 0 0 0 var(--hover);  
+}
+
+// Size can also be negative; see how it's smaller than the element
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+// Animating from the bottom
+.up:hover,
+.up:focus {
+  box-shadow: inset 0 -3.25em 0 0 var(--hover);
+}
+
+// And from the left
+.slide:hover,
+.slide:focus {
+  box-shadow: inset 6.5em 0 0 0 var(--hover);
+}
+
+// Multiple shadows, one on the outside, another on the inside
+.offset {  
+  box-shadow: 
+    0.3em 0.3em 0 0 var(--color),
+    inset 0.3em 0.3em 0 0 var(--color);
+  
+  &:hover,
+  &:focus {
+    box-shadow: 
+      0 0 0 0 var(--hover),
+      inset 6em 3.5em 0 0 var(--hover);
+  }
+}
+
+//=== Set button colors
+// If you wonder why use Sass vars or CSS custom properties...
+  // Make a map with the class names and matching colors
+$colors: (
+  fill: #a972cb,
+  pulse: #ef6eae, 
+  close: #ff7f82, 
+  raise: #ffa260, 
+  up: #e4cb58, 
+  slide: #8fc866, 
+  offset: #19bc8b
+);
+
+// Sass variables compile to a static string; CSS variables are dynamic and inherited
+  // Loop through the map and set CSS custom properties using Sass variables
+@each $button, $color in $colors {
+  .#{$button} {
+    --color: #{$color};
+    --hover: #{adjust-hue($color, 45deg)};
+  }
+}
+
+// Now every button will have different colors as set above. We get to use the same structure, only changing the custom properties.
+button {  
+  color: var(--color);
+  transition: 0.25s;
+  
+  &:hover,
+  &:focus { 
+    border-color: var(--hover);
+    color: #fff;
+  }
+}
+
+//=== Pen styling, ignore
+body {
+  color: #fff;
+  background: hsl(227, 10%, 10%);
+  font: 300 1em 'Fira Sans', sans-serif;
+  
+  // Center everything ever
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+// Basic button styles
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+
+h1 { font-weight: 400; }
+
+code { 
+  color: #e4cb58;
+  font: inherit;
+}
